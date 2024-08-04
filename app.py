@@ -21,7 +21,7 @@ def extract_transcript_details(youtube_video_url):
         raise e
 
 # Function to get a summary from the AI
-prompt = """You are a YouTube video summarizer. You will be taking the transcript text
+prompt = """You are a Youtube video summarizer. You will be taking the transcript text
 and summarizing the entire video and providing the important summary in points
 within 250 words. Please provide the summary of the text given here: """
 
