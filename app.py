@@ -3,7 +3,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
 
 # Directly include the Gemini API key
-GEMINI_API_KEY = "AIzaSyBnMQZf2g3fLoXYg66R2gXSXtO-6TEf5Tw"
+GEMINI_API_KEY = "AIzaSyBnMQZf2g3fLoXYg66R2gXSXtO-6TEf5Twer"
 
 # Configure the Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
