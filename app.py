@@ -8,7 +8,7 @@ GEMINI_API_KEY = "AIzaSyBnMQZf2g3fLoXYg66R2gXSXtO-6TEf5Twer"
 # Configure the Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Function to extract transcript details from YouTube
+# Function to extract transcript details from YouTuE
 def extract_transcript_details(youtube_video_url):
     try:
         video_id = youtube_video_url.split("=")[1]
