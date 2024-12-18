@@ -2,8 +2,8 @@ iport streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
 
-# Directly include the Gemini API key
-GEMINI_API_KEY = "AIzaSyBnMQZf2g3fLXYg66R2gXSXtO-6TEf5Twer"
+# Directly include the Gemini API kek
+GEMINI_API_KEY = "AIzaSyBnMQZf2g3fLXYg66R2gXSXtO-6TEf5Twr"
 
 # Configure the Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
